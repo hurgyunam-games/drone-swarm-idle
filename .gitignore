@@ -1,0 +1,34 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+coverage/
+pubspec.lock
+
+# Flutter platform local configs
+**/local.properties
+android/local.properties
+ios/Flutter/flutter_export_environment.sh
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# App signing / secrets (Play Store)
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pem
+android/key.properties
+android/app/upload-keystore.jks
+android/app/release-keystore.jks
+*.env
+*.env.*
+
+# OS / misc
+.DS_Store
+Thumbs.db
